@@ -1,7 +1,7 @@
 'use strict';
 
-const SocketServer = require('../../lib/socketServer/SocketServer');
+const socketServer = require('../../lib/socketServer/socketServer');
 
 module.exports = {
-  socketServer: new SocketServer()
+  socketServer: socketServer()
 };
